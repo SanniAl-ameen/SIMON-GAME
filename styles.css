@@ -51,3 +51,35 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+#keyboard-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.keyboard-key {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.keyboard-key:hover {
+  background-color: #f5f5f5;
+}
