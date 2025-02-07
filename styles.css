@@ -83,3 +83,8 @@ body {
 .keyboard-key:hover {
   background-color: #f5f5f5;
 }
+
+h3{
+color: white;
+font-weight: bold;
+}
